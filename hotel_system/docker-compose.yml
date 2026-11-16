@@ -1,0 +1,6 @@
+services:
+  hotel-system:
+    image: vaiskale/hotel_system:latest
+    container_name: hotel-system
+    ports:
+      - "3000:80"
